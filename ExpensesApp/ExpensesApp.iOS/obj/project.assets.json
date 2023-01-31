@@ -2,6 +2,51 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Microsoft.AppCenter/5.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "PCLStorage/1.0.2": {
         "type": "package",
         "compile": {
@@ -292,6 +337,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.AppCenter.Analytics": "5.0.1",
+          "Microsoft.AppCenter.Crashes": "5.0.1",
           "PCLStorage": "1.0.2",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
@@ -306,6 +353,51 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Microsoft.AppCenter/5.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "PCLStorage/1.0.2": {
         "type": "package",
         "compile": {
@@ -596,6 +688,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.AppCenter.Analytics": "5.0.1",
+          "Microsoft.AppCenter.Crashes": "5.0.1",
           "PCLStorage": "1.0.2",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
@@ -610,6 +704,51 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Microsoft.AppCenter/5.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "PCLStorage/1.0.2": {
         "type": "package",
         "compile": {
@@ -900,6 +1039,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.AppCenter.Analytics": "5.0.1",
+          "Microsoft.AppCenter.Crashes": "5.0.1",
           "PCLStorage": "1.0.2",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
@@ -914,6 +1055,51 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Microsoft.AppCenter/5.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Analytics/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AppCenter.Crashes/5.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "5.0.1"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "PCLStorage/1.0.2": {
         "type": "package",
         "compile": {
@@ -1204,6 +1390,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Microsoft.AppCenter.Analytics": "5.0.1",
+          "Microsoft.AppCenter.Crashes": "5.0.1",
           "PCLStorage": "1.0.2",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2196",
@@ -1219,6 +1407,114 @@
     }
   },
   "libraries": {
+    "Microsoft.AppCenter/5.0.1": {
+      "sha512": "FaFm30WIY0NxeEdwkcU7ebkHLlAkPFaXQrakVYnmAdKJTQ8Ox6qoGbgjllfhYrZ8UvEXLaVwMr+K9ieGNSd2og==",
+      "type": "package",
+      "path": "microsoft.appcenter/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.dll",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.xml",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.dll",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.xml",
+        "lib/net462/Microsoft.AppCenter.dll",
+        "lib/net462/Microsoft.AppCenter.xml",
+        "lib/net472/Microsoft.AppCenter.dll",
+        "lib/net472/Microsoft.AppCenter.xml",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.dll",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.xml",
+        "lib/net6.0-android29.0/appcenter-release.aar",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.dll",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.xml",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.dll",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.xml",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.dll",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.xml",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.dll",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.xml",
+        "lib/netstandard2.0/Microsoft.AppCenter.dll",
+        "lib/netstandard2.0/Microsoft.AppCenter.xml",
+        "lib/uap10.0.16299/Microsoft.AppCenter.dll",
+        "lib/uap10.0.16299/Microsoft.AppCenter.xml",
+        "microsoft.appcenter.5.0.1.nupkg.sha512",
+        "microsoft.appcenter.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Analytics/5.0.1": {
+      "sha512": "w7TsuaybdbnwvSsln6s0vydhT/1B1lp2zGRYG/Flc1kAtvEeW7K6y3AiKokpWoZJgV3OyERTNJNzNhuYR5Lb6A==",
+      "type": "package",
+      "path": "microsoft.appcenter.analytics/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.Analytics.dll",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.Analytics.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.xml",
+        "lib/net462/Microsoft.AppCenter.Analytics.dll",
+        "lib/net462/Microsoft.AppCenter.Analytics.xml",
+        "lib/net472/Microsoft.AppCenter.Analytics.dll",
+        "lib/net472/Microsoft.AppCenter.Analytics.xml",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/net6.0-android29.0/appcenter-analytics-release.aar",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.Analytics.dll",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.Analytics.xml",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.Analytics.dll",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.Analytics.xml",
+        "lib/netstandard2.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/netstandard2.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.dll",
+        "lib/uap10.0.16299/Microsoft.AppCenter.Analytics.xml",
+        "microsoft.appcenter.analytics.5.0.1.nupkg.sha512",
+        "microsoft.appcenter.analytics.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Crashes/5.0.1": {
+      "sha512": "TNKkvX9H8fSRCgkFwvrPxBRyrhyX8x05RyyeVUL2XUPPM7SnXUY9Ef6BP2ZRbBU2+IbKBJdPFeRdUmVleAjQpg==",
+      "type": "package",
+      "path": "microsoft.appcenter.crashes/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/MonoAndroid10.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.Mac20/Microsoft.AppCenter.Crashes.xml",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.xml",
+        "lib/net462/Microsoft.AppCenter.Crashes.dll",
+        "lib/net462/Microsoft.AppCenter.Crashes.xml",
+        "lib/net472/Microsoft.AppCenter.Crashes.dll",
+        "lib/net472/Microsoft.AppCenter.Crashes.xml",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/net6.0-android29.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/net6.0-android29.0/appcenter-crashes-release.aar",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/net6.0-ios9.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.Crashes.dll",
+        "lib/net6.0-macos10.10/Microsoft.AppCenter.Crashes.xml",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/net6.0-windows10.0.17763.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.Crashes.dll",
+        "lib/netcoreapp3.1/Microsoft.AppCenter.Crashes.xml",
+        "lib/netstandard2.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/netstandard2.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.dll",
+        "lib/uap10.0.16299/Microsoft.AppCenter.Crashes.xml",
+        "microsoft.appcenter.crashes.5.0.1.nupkg.sha512",
+        "microsoft.appcenter.crashes.nuspec"
+      ]
+    },
     "PCLStorage/1.0.2": {
       "sha512": "9If+1ZFCk3QaT/asfiL+J9FMnx2CTMrLCU8tDMUOI/aCGWGWl9vJ1/KcMkjf92op23ZknenvYJZBLDAqE3sFlg==",
       "type": "package",

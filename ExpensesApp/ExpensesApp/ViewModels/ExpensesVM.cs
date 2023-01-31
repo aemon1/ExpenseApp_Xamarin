@@ -1,6 +1,8 @@
 ﻿using ExpensesApp.Interfaces;
 using ExpensesApp.Models;
 using ExpensesApp.Views;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -32,7 +34,20 @@ namespace ExpensesApp.ViewModels
 
         public void AddExpense()
         {
+            TrackEvent();
             Application.Current.MainPage.Navigation.PushAsync(new NewExpensePage());
+        }
+
+        private async void TrackEvent()
+        {
+            if(await Analytics.IsEnabledAsync())
+                Analytics.TrackEvent("Add Expense Clicked");
+        }
+
+        private async void TrackCrash(Exception ex, Dictionary<string, string> properties)
+        {
+            if (await Crashes.IsEnabledAsync())
+                Crashes.TrackError(ex, properties);
         }
     }
 }

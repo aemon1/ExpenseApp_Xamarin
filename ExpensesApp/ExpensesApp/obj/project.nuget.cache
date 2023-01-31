@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vT4Z23QsWtDutQ6x2AAQuppqA9muqf3tBKHQwip+C+DjpQFUhT4IHpyjW5ewDJZbaHLL4Yf9/FlcLdX02AEV6g==",
+  "dgSpecHash": "LYzdeTnrdp/qIWxLPr1iNcgvhZUN4tzz7P6dlC6KXixSCkRlO//nPNNXb/M0FqV2WqQ1vL+YJecJ7tp6yJeljg==",
   "success": true,
   "projectFilePath": "D:\\Bench Training\\Xamarin\\ExpensesApp\\ExpensesApp\\ExpensesApp\\ExpensesApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\aemon.jawaid\\.nuget\\packages\\microsoft.appcenter\\5.0.1\\microsoft.appcenter.5.0.1.nupkg.sha512",
+    "C:\\Users\\aemon.jawaid\\.nuget\\packages\\microsoft.appcenter.analytics\\5.0.1\\microsoft.appcenter.analytics.5.0.1.nupkg.sha512",
+    "C:\\Users\\aemon.jawaid\\.nuget\\packages\\microsoft.appcenter.crashes\\5.0.1\\microsoft.appcenter.crashes.5.0.1.nupkg.sha512",
     "C:\\Users\\aemon.jawaid\\.nuget\\packages\\microsoft.bcl\\1.1.6\\microsoft.bcl.1.1.6.nupkg.sha512",
     "C:\\Users\\aemon.jawaid\\.nuget\\packages\\microsoft.bcl.async\\1.0.165\\microsoft.bcl.async.1.0.165.nupkg.sha512",
     "C:\\Users\\aemon.jawaid\\.nuget\\packages\\microsoft.bcl.build\\1.0.10\\microsoft.bcl.build.1.0.10.nupkg.sha512",

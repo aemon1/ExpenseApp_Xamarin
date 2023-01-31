@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "E9u0X5kAyQNS/KB0Yit94YtK60f3dvJls96EY9RSU/T76X5O1pol7xGl5B5sLGiS2/cQdxidBVVXjpplkSFTfw==",
+  "dgSpecHash": "wbaB5rQYyKIVTPXKeLutF+tiPHwYb/hmW0ns+wkl/5xJdU/TrAodIw0WwOWY7UbzrH23E5PVfOp1wgaAHk2ObA==",
   "success": true,
   "projectFilePath": "D:\\Bench Training\\Xamarin\\ExpensesApp\\ExpensesApp\\ExpensesApp.iOS\\ExpensesApp.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\aemon.jawaid\\.nuget\\packages\\microsoft.appcenter\\5.0.1\\microsoft.appcenter.5.0.1.nupkg.sha512",
+    "C:\\Users\\aemon.jawaid\\.nuget\\packages\\microsoft.appcenter.analytics\\5.0.1\\microsoft.appcenter.analytics.5.0.1.nupkg.sha512",
+    "C:\\Users\\aemon.jawaid\\.nuget\\packages\\microsoft.appcenter.crashes\\5.0.1\\microsoft.appcenter.crashes.5.0.1.nupkg.sha512",
     "C:\\Users\\aemon.jawaid\\.nuget\\packages\\pclstorage\\1.0.2\\pclstorage.1.0.2.nupkg.sha512",
     "C:\\Users\\aemon.jawaid\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\aemon.jawaid\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
