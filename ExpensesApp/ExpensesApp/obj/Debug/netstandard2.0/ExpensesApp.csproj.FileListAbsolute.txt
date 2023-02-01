@@ -17,3 +17,9 @@ D:\Bench Training\Xamarin\ExpensesApp\ExpensesApp\ExpensesApp\obj\Debug\netstand
 D:\Bench Training\Xamarin\ExpensesApp\ExpensesApp\ExpensesApp\obj\Debug\netstandard2.0\Views\ExpensePage.xaml.g.cs
 D:\Bench Training\Xamarin\ExpensesApp\ExpensesApp\ExpensesApp\obj\Debug\netstandard2.0\Views\NewExpensePage.xaml.g.cs
 D:\Bench Training\Xamarin\ExpensesApp\ExpensesApp\ExpensesApp\obj\Debug\netstandard2.0\Views\ExpenseDetailPage.xaml.g.cs
+D:\Bench Training\Xamarin\ExpensesApp\ExpensesApp\ExpensesApp\obj\Debug\netstandard2.0\StyleSheet\style.css.g.cs
+D:\Bench Training\Xamarin\ExpensesApp\ExpensesApp\ExpensesApp\obj\Debug\netstandard2.0\ExpensesApp.Resources.AppResources.resources
+D:\Bench Training\Xamarin\ExpensesApp\ExpensesApp\ExpensesApp\obj\Debug\netstandard2.0\ExpensesApp.csproj.GenerateResource.cache
+D:\Bench Training\Xamarin\ExpensesApp\ExpensesApp\ExpensesApp\bin\Debug\netstandard2.0\es\ExpensesApp.resources.dll
+D:\Bench Training\Xamarin\ExpensesApp\ExpensesApp\ExpensesApp\obj\Debug\netstandard2.0\ExpensesApp.Resources.AppResources.es.resources
+D:\Bench Training\Xamarin\ExpensesApp\ExpensesApp\ExpensesApp\obj\Debug\netstandard2.0\es\ExpensesApp.resources.dll

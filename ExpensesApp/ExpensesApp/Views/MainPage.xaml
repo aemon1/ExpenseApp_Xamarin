@@ -2,11 +2,27 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
             xmlns:view="clr-namespace:ExpensesApp.Views"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+            ios:Page.UseSafeArea="True"
             x:Class="ExpensesApp.Views.MainPage">
+ 
+    <NavigationPage.TitleView>
+        <StackLayout Spacing="10"
+                     Orientation="Horizontal"
+                     VerticalOptions="Center"
+                     HorizontalOptions="Center">
+            <Image Source="expense.png"/>
+            <Label Text="Expense App"
+                   VerticalOptions="Center"
+                   FontSize="15"
+                   TextColor="{OnPlatform Android=White, iOS=Black, Default=Black}"
+                   FontAttributes="Bold"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
     <view:CategoriesPage Title="Categories"
                          IconImageSource="category.png"/>
     <view:ExpensePage Title="Expenses"
                       IconImageSource="expense.png"/>
-
-
 </TabbedPage>

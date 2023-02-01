@@ -19,6 +19,11 @@
         },
         "runtime": {
           "ExpensesApp.dll": {}
+        },
+        "resources": {
+          "fr/ExpensesApp.resources.dll": {
+            "locale": "fr"
+          }
         }
       },
       "Microsoft.AppCenter/5.0.1": {

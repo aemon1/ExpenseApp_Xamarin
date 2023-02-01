@@ -661,3 +661,4 @@ D:\Bench Training\Xamarin\ExpensesApp\ExpensesApp\ExpensesApp.Android\obj\Debug\
 D:\Bench Training\Xamarin\ExpensesApp\ExpensesApp\ExpensesApp.Android\obj\Debug\130\android\src\mono\com\microsoft\appcenter\channel\Channel_GroupListenerImplementor.java
 D:\Bench Training\Xamarin\ExpensesApp\ExpensesApp\ExpensesApp.Android\obj\Debug\130\android\src\mono\com\microsoft\appcenter\channel\Channel_ListenerImplementor.java
 D:\Bench Training\Xamarin\ExpensesApp\ExpensesApp\ExpensesApp.Android\obj\Debug\130\android\src\mono\com\microsoft\appcenter\crashes\CrashesListenerImplementor.java
+D:\Bench Training\Xamarin\ExpensesApp\ExpensesApp\ExpensesApp.Android\bin\Debug\es\ExpensesApp.resources.dll

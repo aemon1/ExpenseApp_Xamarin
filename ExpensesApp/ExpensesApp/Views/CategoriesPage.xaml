@@ -2,11 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:vm="clr-namespace:ExpensesApp.ViewModels"
+             xmlns:te="clr-namespace:ExpensesApp.Views"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="True"
              x:Class="ExpensesApp.Views.CategoriesPage">
 
     <ContentPage.Resources>
         <ResourceDictionary>
             <vm:CategoriesVM x:Key="vm"/>
+            <StyleSheetExtension Source="../StyleSheet/style.css"/>
         </ResourceDictionary>
     </ContentPage.Resources>
 
@@ -16,17 +20,62 @@
     </ContentPage.ToolbarItems>
     
     <ContentPage.Content>
-        <ListView ItemsSource="{Binding Source={StaticResource vm}, Path=CategoryExpensesCollection}">
+        <StackLayout>
+            <Label x:Name="titleLabel" 
+                Text="{te:TranslateExtension Text=categoryTitle}"
+                   StyleClass="titleLabel">
+                <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup Name="OrientationStates">
+                    <VisualState Name="Landscape">
+                        <VisualState.Setters>
+                            <Setter Property="IsVisible" Value="false"/>
+                        </VisualState.Setters>
+                    </VisualState>
+                    <VisualState Name="Portrait">
+                        <VisualState.Setters>
+                            <Setter Property="IsVisible" Value="true"/>
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+                </VisualStateManager.VisualStateGroups>
+            </Label>
+            <ListView ItemsSource="{Binding Source={StaticResource vm}, Path=CategoryExpensesCollection}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Margin="16,0">
-                            <Label Text="{Binding Category}"/>
+                            <Label Text="{Binding Category}"
+                                   StyleClass="normalLabel"/>
                             <ProgressBar Progress="{Binding ExpensesPercentage}"/>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
+            <Button x:Name="exampleButton"
+                    Text="{te:TranslateExtension Text=categoryButtonLabel}"
+                    Pressed="Handle_Pressed"
+                    Released="Handle_Released">
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroup Name="CommonStates">
+                        <VisualState Name="Normal">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" Value="White"/>
+                            </VisualState.Setters>
+                        </VisualState>
+                        <VisualState Name="Disable">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" Value="Transparent"/>
+                            </VisualState.Setters>
+                        </VisualState>
+                        <VisualState Name="Focused">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" Value="Blue"/>
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateManager.VisualStateGroups>
+            </Button>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

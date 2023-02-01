@@ -1,5 +1,6 @@
 ﻿using ExpensesApp.Interfaces;
 using ExpensesApp.Models;
+using ExpensesApp.Resources;
 using PCLStorage;
 using System;
 using System.Collections.Generic;
@@ -67,13 +68,13 @@ namespace ExpensesApp.ViewModels
         private void GetCategories()
         {
             Categories.Clear();
-            Categories.Add("Housing");
-            Categories.Add("Debt");
-            Categories.Add("Health");
-            Categories.Add("Food");
-            Categories.Add("Personal");
-            Categories.Add("Travel");
-            Categories.Add("Other");
+            Categories.Add(AppResources.houseCategory);
+            Categories.Add(AppResources.debtCategory);
+            Categories.Add(AppResources.healthCategory);
+            Categories.Add(AppResources.foodCategory);
+            Categories.Add(AppResources.personalCategory);
+            Categories.Add(AppResources.travelCategory);
+            Categories.Add(AppResources.otherCategory);
         }
     }
 }
